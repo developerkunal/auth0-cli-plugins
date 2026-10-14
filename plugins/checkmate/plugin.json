@@ -1,0 +1,37 @@
+{
+  "name": "checkmate",
+  "description": "Audit an Auth0 tenant against security best practices",
+  "install": {
+    "type": "npm",
+    "package": "@auth0/auth0-checkmate",
+    "version": "github:developerkunal/auth0-checkmate#plugin-proxy-support"
+  },
+  "required_scopes": [
+    "read:tenant_settings",
+    "read:custom_domains",
+    "read:prompts",
+    "read:clients",
+    "read:connections",
+    "read:connections_options",
+    "read:resource_servers",
+    "read:client_grants",
+    "read:roles",
+    "read:branding",
+    "read:email_provider",
+    "read:email_templates",
+    "read:phone_providers",
+    "read:phone_templates",
+    "read:shields",
+    "read:attack_protection",
+    "read:self_service_profiles",
+    "read:guardian_factors",
+    "read:mfa_policies",
+    "read:actions",
+    "read:rules",
+    "read:hooks",
+    "read:log_streams",
+    "read:logs",
+    "read:network_acls",
+    "read:event_streams"
+  ]
+}
