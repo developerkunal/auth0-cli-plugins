@@ -30,6 +30,8 @@
         "read:guardian_factors",
         "read:mfa_policies",
         "read:actions",
+        "read:rules",
+        "read:hooks",
         "read:log_streams",
         "read:logs",
         "read:network_acls",
